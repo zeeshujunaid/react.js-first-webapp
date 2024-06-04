@@ -1,5 +1,6 @@
-import logo from './logo.svg';
-import './App.css';
+import {db} from "./database/firebase"
+import { collection, addDoc } from "firebase/firestore"; 
+
 
 function App() {
   return (
